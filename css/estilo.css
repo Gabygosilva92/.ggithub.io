@@ -1,0 +1,83 @@
+/*Inicio Cabecalho*/
+
+body {
+ background-color: #191970;
+}
+
+
+#logo img{
+	max-height: 150px;
+}
+
+#logo{
+	text-align: center;
+}
+#banner img{
+	width: 100%; 
+}
+
+#menu {
+	background-color: #000;
+	padding: 10px;
+}
+#menu a{
+	color: #FFF;
+	text-decoration: none;
+	padding: 20px 50px;
+}
+#menu a:hover{
+	background-color: #FFF;
+	color:#000;
+}
+
+
+.titulo{
+	font-size: 22px;
+	color: #FFF;
+	padding: 20px;
+	margin: 20px 0px;
+	border: 1px dashed #999;
+	text-align: center;
+}
+
+
+#quem_somos{
+	
+	text-align:  justify;
+	color: #FFF;
+}
+
+#atuacoes{
+	text-align:  justify;
+	color: #FFF;
+}
+li::before {content: "•"; color: white;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
+}
+
+#mapa{
+	text-align: center;
+	width: 200%
+	height: 500px;
+}
+
+#contato{
+overflow: auto;
+}
+#contato_esq{
+width: 45%;
+float: left;
+}
+#contato_dir{
+width: 45%;
+float: right;
+}
+
+#contato input, #contato textarea{
+	padding: 10px;
+	color: #000;
+	border: 1px solid #000;
+	width: 100%;
+	margin-bottom: 5px;
+}
